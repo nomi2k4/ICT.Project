@@ -1,0 +1,320 @@
+body
+{
+  background: linear-gradient(45deg, #f20d87 0%, #dccc1e 100%)
+}
+ul
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 56px;
+    line-height: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+header nav li
+{
+    float: none;
+}
+a
+{
+display: block;
+padding: 0 28px;
+color: #fff;
+text-decoration: none;
+}
+a:hover
+{
+    background-color:#2e109a;
+}
+.right-image 
+{  
+    float: right;  
+}
+#text1 {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-family: Brush Script MT;
+  font-size: 30px;
+  color: white;
+}
+#text2 {
+    position: absolute;
+    top: 310px;
+    left: 200px;  
+    font-family: Broadway;
+  font-size: 40px;
+  color: rgb(234, 237, 9);
+}
+#text3 {
+    position: absolute;
+    top: 340px;
+    left: 200px;
+    font-family: Broadway;
+  font-size: 50px;
+  color: rgb(234, 237, 9);
+}
+#text4 {
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    font-family: Cascadia Code;
+  font-size: 25px;
+  color: white;
+}
+#text5 {
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 25px;
+  position: absolute;
+    top: 100px;
+    left: 700px;
+  color: #fff;
+}
+#text6 {
+  font-family: Brush Script MT;
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  top: 130px;
+  left: 700px;
+}
+#text7 {
+  font-family: 'Cascadia Code', monospace;
+  font-size: 15px;
+  color: #fff;
+  margin: 10px 20px;
+  text-align: justify;
+  position: absolute;
+  top: 175px;
+  left: 680px;
+}
+#text8 {
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 240px;
+  left: 700px;
+}
+#text9 {
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 395px;
+  left: 703px;
+}
+#table {
+  width: 56%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Cascadia Code', monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 255px;
+  left: 700px;
+}
+#table2 {
+  width: 56%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Cascadia Code', monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 415px;
+  left: 700px;
+}
+table th, table td {
+  border: 1px solid #555;
+  padding: 10px;
+  color: #fff;
+}
+table th {
+  background-color: #2e109a;
+}
+progress {
+  width: 100%;
+  height: 20px;
+}
+.image {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 170px;
+}
+
+h1{
+  display: block;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  font-size: 55px;
+  color: rgb(50, 245, 199);;
+}
+#p2
+{
+  display: block;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 35px;
+  color: #fff;
+}
+#p3
+{
+  display: block;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  top: 310px;
+  left: 700px;
+  font-size: 35px;
+  color: #fff;
+}
+#p4
+{
+  display: block;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  top: 350px;
+  left: 700px;
+  font-size: 35px;
+  color: #fff;
+}
+
+
+
+.social-links {
+  position: absolute;
+  top: 420px;
+  right: 392px;
+  display: flex;
+  gap: 15px;
+  z-index: 100;
+}
+
+.social-links a {
+  color: rgb(50, 245, 199);
+  font-size: 40px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0a57b5;
+}
+
+
+.social-links-home {
+  position: absolute;
+  top: 470px;
+  left: 172px;
+  display: flex;
+  gap: 15px;
+  z-index: 100;
+}
+
+.social-links-home a {
+  display: inline-flex;
+  color: rgb(234, 237, 9);
+  font-size: 40px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-links-home a:hover {
+  color: #20dac1;
+}
+
+.social-links-home ion-icon {
+  vertical-align: middle;
+}
+.progress-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+}
+
+.progress-item {
+  text-align: center;
+}
+
+.circle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: conic-gradient(
+    rgba(0, 255, 150, 1) calc(var(--percent) * 1%),
+    rgba(0, 0, 0, 0.2) calc(var(--percent) * 1%)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.8), 
+              0 0 50px rgba(0, 255, 150, 0.5),
+              inset 0 0 10px rgba(0, 255, 150, 0.8);
+  overflow: hidden;
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  background: rgba(0, 0, 0, 0.85); /* Semi-transparent center */
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: inset 0 0 30px rgba(0, 255, 150, 0.3);
+}
+
+.number {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 255, 150, 1);
+  z-index: 2;
+  text-shadow: 0 0 15px rgba(0, 255, 150, 0.8);
+  animation: pulse 2s infinite;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    text-shadow: 0 0 15px rgba(0, 255, 150, 0.8),
+                 0 0 30px rgba(0, 255, 150, 0.5);
+  }
+  50% 
+  {
+    text-shadow: 0 0 20px rgba(0, 255, 150, 1)
+  }}
